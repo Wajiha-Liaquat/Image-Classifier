@@ -163,4 +163,4 @@ Handles:
 
 ## 👤 Author
 
-**Wajiha (MSCS25016)**
+**Wajiha Liaquat (MSCS25016)**
