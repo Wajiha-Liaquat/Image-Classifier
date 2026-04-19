@@ -16,7 +16,6 @@ from utils.helper import perform_eval, visualize_metrics
 def start_pipeline():
     compute_dev = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    # Strictly 3 trials as per PDF
     trials = [
         {"rounds": 5,  "opt": "SGD",  "lr": 0.01,  "bs": 32},
         {"rounds": 10, "opt": "Adam", "lr": 0.001, "bs": 64},
